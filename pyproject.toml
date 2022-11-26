@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flyte-test"
+version = "0.1.0"
+description = ""
+authors = ["Matthew McGrath <matthew.mcgrath12@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flyte_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flytekit = "^1.2.4"
+pandas = "^1.5.2"
+numpy = "^1.23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
